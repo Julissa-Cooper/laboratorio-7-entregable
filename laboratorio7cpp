@@ -1,0 +1,19 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int Numero, contador = 1, suma = 0;
+
+    cout << "Ingrese un numero: ";
+    cin >> Numero;
+
+    do {
+        suma = suma + contador;
+        contador++;
+    } while (contador <= Numero);
+
+    cout << "La suma es: " << suma << endl;
+
+    return 0;
+}
